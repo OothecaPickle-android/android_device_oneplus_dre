@@ -902,6 +902,11 @@ vendor/firmware/evass.mdt|50a2938df0fe52344d95fc2d14414a2922c6decc
 # Diag
 system_ext/lib/vendor.qti.diaghal@1.0.so
 system_ext/lib64/vendor.qti.diaghal@1.0.so
+vendor/bin/diag-router;DISABLE_CHECKELF
+vendor/etc/init/vendor.qti.diag.rc
+vendor/lib/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/vendor.qti.diaghal@1.0.so;MODULE_SUFFIX=_vendor
+vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
 
 # Display (Features)
 vendor/bin/feature_enabler_client
@@ -1561,6 +1566,7 @@ vendor/lib64/libqsocket.so
 vendor/lib64/libril-db.so
 vendor/lib64/libril-qc-ltedirectdisc.so
 vendor/lib64/libril-qc-radioconfig.so
+vendor/lib64/libril-qcril-hook-oem.so;DISABLE_CHECKELF
 vendor/lib64/librilqmimiscservices.so
 vendor/lib64/librilqmiservices.so
 vendor/lib64/libsystem_health_mon.so
