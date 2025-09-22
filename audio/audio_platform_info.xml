@@ -177,7 +177,7 @@
         <device name="SND_DEVICE_IN_VOICE_HEARING_AID" acdb_id="11"/>
         <device name="SND_DEVICE_OUT_VOICE_HANDSET_TMUS" acdb_id="7"/>
         <!--Vincent.chen@MULTIMEDIA.AUDIODRIVER.HAL, 2021/11/10, add for HAC-->
-        <device name="SND_DEVICE_IN_VOICE_DMIC_TMUS" acdb_id="41"/>
+        <device name="SND_DEVICE_IN_VOICE_DMIC_TMUS" acdb_id="89"/>
         <device name="SND_DEVICE_OUT_VOICE_HAC_HANDSET" acdb_id="103"/>
         <device name="SND_DEVICE_IN_VOICE_HAC_HANDSET_DMIC" acdb_id="105"/>
         <!--Vincent.chen@MULTIMEDIA.AUDIODRIVER.HAL, 2021/11/10, add for HAC end-->
