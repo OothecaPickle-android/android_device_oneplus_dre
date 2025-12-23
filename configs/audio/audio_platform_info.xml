@@ -177,7 +177,7 @@
         <device name="SND_DEVICE_IN_VOICE_HEARING_AID" acdb_id="11"/>
         <device name="SND_DEVICE_OUT_VOICE_HANDSET_TMUS" acdb_id="7"/>
         <!--Vincent.chen@MULTIMEDIA.AUDIODRIVER.HAL, 2021/11/10, add for HAC-->
-        <device name="SND_DEVICE_IN_VOICE_DMIC_TMUS" acdb_id="89"/>
+        <device name="SND_DEVICE_IN_VOICE_DMIC_TMUS" acdb_id="41"/>
         <device name="SND_DEVICE_OUT_VOICE_HAC_HANDSET" acdb_id="103"/>
         <device name="SND_DEVICE_IN_VOICE_HAC_HANDSET_DMIC" acdb_id="105"/>
         <!--Vincent.chen@MULTIMEDIA.AUDIODRIVER.HAL, 2021/11/10, add for HAC end-->
@@ -349,7 +349,6 @@
         <device name="SND_DEVICE_IN_BT_SCO_MIC_WB_NREC" interface="SLIMBUS_7_TX"/>
         <device name="SND_DEVICE_IN_CAMCORDER_MIC" interface="TX_CDC_DMA_TX_3"/>
         <device name="SND_DEVICE_IN_VOICE_DMIC" interface="TX_CDC_DMA_TX_3"/>
-        <device name="SND_DEVICE_IN_VOICE_DMIC_TMUS" interface="TX_CDC_DMA_TX_3"/>
         <!--Vincent.chen@MULTIMEDIA@MULTIMEDIA.AUDIODRIVER.HAL, 2021/11/10, add for HAC-->
         <device name="SND_DEVICE_IN_VOICE_HAC_HANDSET_DMIC" interface="TX_CDC_DMA_TX_3"/>
         <!--Vincent.chen@MULTIMEDIA.AUDIODRIVER.HAL, 2021/11/10, add for HAC end-->
